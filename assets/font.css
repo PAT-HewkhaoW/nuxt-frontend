@@ -1,0 +1,42 @@
+@import "./fonts/fonts.css";
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --font-machina: "machina";
+  --font-machina-inktrap: "machinainktrap";
+  --font-satoshi: "satoshi";
+  --font-inconsolata: "inconsolata";
+
+  --font-weignt-thin: "100";
+  --font-weignt-ultralight: "200";
+  --font-weignt-light: "300";
+  --font-weignt-regular: "400";
+  --font-weignt-medium: "500";
+  --font-weignt-semibold: "600";
+  --font-weignt-bold: "700";
+  --font-weignt-ultrabold: "800";
+  --font-weignt-black: "900";
+}
+
+.machina {
+  font-family: var(--font-machina);
+  font-weight: var(--font-weignt-regular);
+}
+
+.machina.inktrap {
+  font-family: var(--font-machina-inktrap);
+  font-weight: var(--font-weignt-regular);
+}
+
+.satoshi {
+  font-family: var(--font-satoshi);
+  font-weight: var(--font-weignt-regular);
+}
+
+.inconsolata {
+  font-family: var(--font-inconsolata);
+}
+
+.bold {
+  font-weight: 700;
+}
